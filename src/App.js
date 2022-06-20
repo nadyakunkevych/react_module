@@ -1,4 +1,5 @@
-import Character from './components/Character'
+import Character from './components/Character';
+import RandMPerson from './components/RandMPerson';
 
 function App() {
   return (
@@ -38,6 +39,46 @@ function App() {
           picture='https://static.simpsonswiki.com/images/thumb/9/9d/Maggie_Simpson.png/250px-Maggie_Simpson.png'
       />
 
+      <RandMPerson
+          name={'Beebo'}
+          id={33}
+          status={'Dead'}
+          species={'Alien'}
+          gender={'Male'}
+          image={'https://rickandmortyapi.com/api/character/avatar/33.jpeg'}
+      />
+      <RandMPerson
+          name={'Ideal Jerry'}
+          id={163}
+          status={'Dead'}
+          species={'Mythological Creature'}
+          gender={'Male'}
+          image={'https://rickandmortyapi.com/api/character/avatar/163.jpeg'}
+      />
+      <RandMPerson
+          name={'Krombopulos Michael'}
+          id={196}
+          status={'Dead'}
+          species={'Alien'}
+          gender={'Male'}
+          image={'https://rickandmortyapi.com/api/character/avatar/196.jpeg'}
+      />
+      <RandMPerson
+          name={'Ron Benson'}
+          id={301}
+          status={'Alive'}
+          species={'Alien'}
+          gender={'Male'}
+          image={'https://rickandmortyapi.com/api/character/avatar/301.jpeg'}
+      />
+      <RandMPerson
+          name={'Evolved Narnian Disguised as Morty'}
+          id={685}
+          status={'Alive'}
+          species={'Humanoid'}
+          gender={'Male'}
+          image={'https://rickandmortyapi.com/api/character/avatar/685.jpeg'}
+      />
 
 
     </div>
