@@ -1,16 +1,18 @@
 import Users from "./components/users/Users";
-import Posts from "./components/posts/Posts";
+// import Posts from "./components/posts/Posts";
 
 export default function App () {
 
-    let [comments, setComments] = useState([])
-  return (
-    <div>
-      <Users/>
-        <Posts/>
-        {
-     comments.map(value => <div> value.body  </div> )
-        }
-    </div>
-
-
+    const elevate = (id) => {
+        console.log(id)
+    }
+    // let [comments, setComments] = useState([])
+    return (
+        <div>
+            <Users elevate={elevate}/>
+            {/*<Posts/>*/}
+            {/*   {*/}
+            {/*comments.map(value => <div> value.body  </div> )*/}
+            {/*   }*/}
+        </div>)
+}

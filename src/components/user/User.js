@@ -1,10 +1,12 @@
 export default function User ({item}) {
 
+    const onClick = () => {
+        (user.id)
+    }
     return (
         <div>
-            <h3 onClick={() => {
-
-            }}>    {item.title} </h3>
+            {item.name}
+            <button onClick={onClick}> posts </button>
 
         </div>
     )
