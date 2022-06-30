@@ -1,13 +1,13 @@
-export default function User ({item}) {
+import React from 'react';
 
-    const onClick = () => {
-        (user.id)
-    }
+const User = ({item}) => {
     return (
         <div>
             {item.name}
-            <button onClick={onClick}> posts </button>
+            <button onClick={()=> details </button>
 
         </div>
-    )
-}
+    );
+
+
+export default User;
