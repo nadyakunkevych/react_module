@@ -1,13 +1,8 @@
 import React from 'react';
 
-const User = ({item}) => {
-    return (
-        <div>
-            {item.name}
-            <button onClick={()=> details </button>
-
-        </div>
-    );
-
-
-export default User;
+export default function User ({item, getPostbyUser}) {
+    return (<div>
+        <div>{item.id} - {item.name} - {item.username} - {item.city}</div>
+        <button onClick={() => getPostbyUser(item.id)}>Get all posts</button>
+    </div>);
+}

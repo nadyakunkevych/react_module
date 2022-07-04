@@ -1,9 +1,10 @@
-export default function Post ({item}) {
+import React from 'react';
 
+
+export default Post;
+
+const Post = ({item}) => {
     return (
-        <div>
-            <h3> {post.id}. {post.title}</h3>
-
-        </div>
-    )
+        <div>{item.id} - {item.title}</div>
+    );
 }
