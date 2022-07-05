@@ -3,10 +3,6 @@ import Users from "./components/users/Users";
 import Post from "./components/post/Post";
 import {getUsersPosts} from "./services/user.api.service";
 
-
-
-
-
 export default function App() {
 
     let [posts, setPosts] = useState([]);

@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import User from "../user/User";
-import {getUsers} from "./services/user.api.service";
+import {getUsers} from "../../services/user.api.service";
 
 
 export default function Users({getPostbyUser}) {
