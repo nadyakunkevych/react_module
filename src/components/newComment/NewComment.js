@@ -31,7 +31,7 @@ const NewComment = () => {
                 <select{...register("commentId")}>
                     {idArray.map(value => <option key={value.id} value={value.id}>{value.name}</option>)}
                 </select>
-                <button>Зберегти</button>
+                <button>Save</button>
             </form>
         </div>
     );

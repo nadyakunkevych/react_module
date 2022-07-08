@@ -10,8 +10,8 @@ const NewUser = () => {
 
     let {register,handleSubmit, formState:{errors}} = useForm({
         defaultValues:{
-            name:"ім'я",
-            surname:"прізвище"
+            name:"name",
+            surname:"surname"
         }
     });
     let submit = (obj) => {
@@ -37,7 +37,7 @@ const NewUser = () => {
                 <select{...register("userId")}>
                     {idArray.map(value => <option key={value.id} value={value.id}>{value.name}</option>)}
                 </select>
-                <button>Зберегти</button>
+                <button> Save</button>
             </form>
         </div>
     );
