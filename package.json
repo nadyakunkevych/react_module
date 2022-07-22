@@ -15,7 +15,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "axios": "^0.27.2",
+    "@reduxjs/toolkit": "^1.8.3",
+    "react-hook-form": "^7.33.1",
+    "react-redux": "^8.0.2"
   },
   "eslintConfig": {
     "extends": [
