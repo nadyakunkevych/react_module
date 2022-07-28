@@ -1,5 +1,3 @@
-
-
 interface ICore {
 
     flight: number,
