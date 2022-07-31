@@ -1,10 +1,10 @@
-const baseURL = "http://owu.linkpc.net/api/v2";
+const baseUrl = 'http://owu.linkpc.net/api/v2'
 
 const urls = {
-    cars: "/cars"
+    cars:'/cars'
 }
 
 export {
-    baseURL,
+    baseUrl,
     urls
 }
