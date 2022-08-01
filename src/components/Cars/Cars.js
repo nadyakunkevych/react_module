@@ -2,7 +2,8 @@ import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import Car from "../Car/Car";
 import {useEffect} from "react";
-import {carActions} from "../../redux";
+import {carActions} from "../../redux/slices";
+
 
 const Cars = () => {
     const {cars} = useSelector(state => state.cars);

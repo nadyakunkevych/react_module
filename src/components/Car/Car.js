@@ -1,7 +1,8 @@
 import React from 'react';
 import css from'./Car.module.css';
 import {useDispatch} from "react-redux";
-import {carActions} from "../../redux";
+import {carActions} from "../../redux/slices";
+
 
 const Car = ({car}) => {
     const {id, model, price, year} = car;

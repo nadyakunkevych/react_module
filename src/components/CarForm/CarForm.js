@@ -1,7 +1,8 @@
 import React from 'react';
 import {useForm} from "react-hook-form";
-import {carActions} from "../../redux";
+
 import {useDispatch} from "react-redux";
+import {carActions} from "../../redux/slices";
 
 const CarForm = () => {
     const {reset, register, handleSubmit} = useForm();
